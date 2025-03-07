@@ -1,0 +1,19 @@
+@import url(resources/2025-pantone-coty.css);
+
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: var(--cannoli-cream); /* Fallback color - adjust as needed */
+
+    background-image:
+        linear-gradient(to left, rgb(var(--baltic-amber) / 0.5) 0%, rgb(var(--chocolate-martini) / 0.5) 50%); /* Top edge */
+        /* linear-gradient(to bottom, rgb(var(--cannoli-cream)/ 0.2), rgb(var(--chocolate-martini) /1) 50% ),  /* Bottom edge */
+        /* linear-gradient(to left, rgba(var(--cannoli-cream), 0.2), rgb(var(--chocolate-martini) / 1) 50% ),  /* Left edge */
+        /* linear-gradient(to right, rgba(var(--cannoli-cream), 0.2), rgb(var(--chocolate-martini) / 1) 50% ); Right edge */
+
+    background-attachment: fixed; /* Keep gradients fixed to the viewport */
+}
+
+div {
+    margin: 10px;
+}
