@@ -4,16 +4,28 @@ body {
     margin: 0;
     height: 100vh;
     background-color: var(--cannoli-cream); /* Fallback color - adjust as needed */
+    color: rgb(var(--chocolate-martini));
+    font-family: "Montserrat",sans-serif;
 
-    background-image:
-        linear-gradient(to left, rgb(var(--baltic-amber) / 0.5) 0%, rgb(var(--chocolate-martini) / 0.5) 50%); /* Top edge */
-        /* linear-gradient(to bottom, rgb(var(--cannoli-cream)/ 0.2), rgb(var(--chocolate-martini) /1) 50% ),  /* Bottom edge */
-        /* linear-gradient(to left, rgba(var(--cannoli-cream), 0.2), rgb(var(--chocolate-martini) / 1) 50% ),  /* Left edge */
-        /* linear-gradient(to right, rgba(var(--cannoli-cream), 0.2), rgb(var(--chocolate-martini) / 1) 50% ); Right edge */
+    background-image: url('./img/background.png');
 
     background-attachment: fixed; /* Keep gradients fixed to the viewport */
 }
 
 div {
-    margin: 10px;
+    margin-left: 10vw;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:20px;
+    width: 80vw;
+    height: 10vh;
+    background-color: rgb(var(--cream-tan));
+    background: linear-gradient(135deg, rgba(var(--cream-tan),0.1), rgba(var(--cream-tan),0));
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(var(--baltic-amber), .18);
+
 }
