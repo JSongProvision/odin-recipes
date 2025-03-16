@@ -27,7 +27,7 @@ div {
     height: 10vh;
     background-color: rgb(var(--cream-tan));
     background: linear-gradient(135deg, rgba(var(--cream-tan),0.9), rgba(var(--cream-tan),.75));
-    backdrop-filter: blur(16px);
+    backdrop-filter: blur(8px);
     border: 1px solid rgba(var(--baltic-amber), .18);
     margin-top: 10px;
 
@@ -56,7 +56,7 @@ div {
     height: auto;
     background-color: rgb(var(--cream-tan));
     background: linear-gradient(135deg, rgba(var(--mocha-mousse),0.9), rgba(var(--mocha-mousse),.75));
-    backdrop-filter: blur(16px);
+    backdrop-filter: blur(10px);
     border: 1px solid rgba(var(--baltic-amber), .18);
     margin-top: 10px;
     margin-bottom: 10px;
